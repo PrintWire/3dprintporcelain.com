@@ -1,0 +1,209 @@
+baseURL = "https://3dprintporcelain.com/"
+languageCode = "en-us"
+title = "3D Print Porcelain"
+theme = "printwire"
+
+# All single-value params MUST come before [[params.*]] array tables
+[params]
+tagline       = "Specialist resource for porcelain and bone china additive manufacturing."
+description   = "3D Print Porcelain — specialist coverage of translucent porcelain and bone china additive manufacturing for luxury tableware, dental labs, and fine ceramic research."
+keywords      = "porcelain 3D printing, bone china printing, translucent ceramic, dental porcelain, zirconia printing, luxury tableware, fine clay"
+logoEmoji     = "🤍"
+contactEmail  = "maxdavisgroup@gmail.com"
+ogImage       = "images/03_textured_collection.png"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#c2714f"
+colorPrimaryDark  = "#a85e3e"
+colorPrimaryLight = "#d4896b"
+colorBgDark       = "#0d0b09"
+colorBgSection    = "#111009"
+colorBgCard       = "#1a1510"
+colorBgCardHover  = "#231d15"
+colorBorder       = "rgba(194,113,79,0.18)"
+colorBorderLight  = "rgba(194,113,79,0.08)"
+
+fontPrimary   = "Josefin+Sans"
+fontSecondary = "Lato"
+
+pubmedQuery    = "porcelain+ceramic+3D+printing+additive+manufacturing"
+pubmedFallback = "porcelain+ceramic+printing"
+newsFallbackImages = [
+  "images/03_textured_collection.png",
+  "images/08_teacup_set.png",
+  "images/01_voronoi_vase.png",
+]
+
+heroEyebrow  = "Porcelain 3D Printing"
+heroTitle    = "<em>Porcelain Precision</em><br>Meets Digital Design"
+heroSubtitle = "Specialist resource for translucent porcelain and bone china additive manufacturing — serving luxury tableware designers, dental labs, and fine ceramic researchers."
+heroCta1Text = "Latest Research"
+heroCta1URL  = "/articles/"
+heroCta2Text = "Services"
+heroCta2URL  = "/services/"
+heroImage    = "images/03_textured_collection.png"
+
+newsSectionTitle    = "Porcelain & Fine Clay Research"
+newsSectionSubtitle = "Latest findings on porcelain paste systems, zirconia AM, and high-resolution ceramic fabrication."
+
+overviewLabel   = "The Material"
+overviewTitle   = "The Most Demanding Clay, Mastered"
+overviewText    = "Porcelain demands perfect formulation — too little water and it won't extrude; too much and it collapses. Our fine-tuned paste systems are engineered for consistent, defect-free printing with post-firing shrinkage below 12%."
+overviewText2   = "From classical whiteware aesthetics to translucent bone china that glows under light, we push the limits of what clay printing can achieve in terms of finish quality and material purity."
+overviewImage   = "images/08_teacup_set.png"
+overviewBtnText = "Our Process"
+overviewBtnURL  = "/services/"
+
+applicationsLabel = "Applications"
+applicationsTitle = "Where Porcelain 3D Printing Excels"
+
+servicesLabel    = "What We Offer"
+servicesTitle    = "Coverage & Services"
+servicesSubtitle = "Expert coverage and fabrication services for ceramic additive manufacturing."
+
+clusterLabel = "Ceramic Cluster"
+clusterTitle = "Related Ceramic 3D Printing Sites"
+
+newsletterTitle = "Porcelain 3D Printing Updates"
+newsletterText  = "Paste formulation tips, firing guides, and research summaries for fine ceramic printing."
+
+ctaTitle   = "Refine Your Porcelain Process"
+ctaText    = "Get specialist coverage of porcelain AM — paste formulation, firing schedules, and machine comparisons."
+ctaImage   = "images/11_glazed_bowl.png"
+ctaBtnText = "Browse Articles"
+ctaBtnURL  = "/articles/"
+
+[[params.stats]]
+count  = 3
+suffix = "B+"
+label  = "Ceramic AM Market 2034"
+
+[[params.stats]]
+count  = 28
+suffix = "%"
+label  = "Annual CAGR"
+
+[[params.stats]]
+count  = 12
+suffix = "%"
+label  = "Max Firing Shrinkage"
+
+[[params.stats]]
+count  = 97
+suffix = "%"
+label  = "Target Theoretical Density"
+
+[[params.applications]]
+title       = "Luxury Tableware"
+description = "Bespoke porcelain tea sets, dinnerware, and serving pieces for fine dining restaurants and design collectors."
+image       = "images/18_dinnerware_set.png"
+
+[[params.applications]]
+title       = "Translucent Lighting"
+description = "Bone china lamp shades with laser-precision perforation patterns — impossible to press-mold."
+image       = "images/13_lamp_shade.png"
+
+[[params.applications]]
+title       = "Dental & Medical"
+description = "Zirconia and dental porcelain for same-day chairside crown fabrication and patient-specific implants."
+image       = "images/05_lattice_cubes.png"
+
+[[params.applications]]
+title       = "Design Objects"
+description = "Statement decorative objects with surface complexity impossible in traditional slip casting or jiggering."
+image       = "images/01_voronoi_vase.png"
+
+[[params.servicesPreview]]
+icon        = "🤍"
+title       = "Porcelain Extrusion"
+description = "Fine-tuned paste formulation for consistent extrusion — handles kaolin-heavy bodies with low plasticity."
+
+[[params.servicesPreview]]
+icon        = "💡"
+title       = "LCM Zirconia"
+description = "Lithoz-compatible ceramic slurries for high-resolution dental and medical-grade zirconia parts."
+
+[[params.servicesPreview]]
+icon        = "🔥"
+title       = "Controlled Firing"
+description = "Slow-cycle debinding and sintering with atmosphere control for translucent porcelain results."
+
+[[params.servicesPreview]]
+icon        = "✨"
+title       = "Glaze & Surface"
+description = "Clear, celadon, and custom glaze formulation matched to your porcelain body for archival-quality finish."
+
+[[params.services]]
+name        = "Porcelain Extrusion"
+description = "Fine-tuned paste formulation for consistent extrusion — handles kaolin-heavy bodies with low plasticity."
+icon        = "🤍"
+
+[[params.services]]
+name        = "LCM Zirconia"
+description = "Lithoz-compatible ceramic slurries for high-resolution dental and medical-grade zirconia parts."
+icon        = "💡"
+
+[[params.services]]
+name        = "Controlled Firing"
+description = "Slow-cycle debinding and sintering with atmosphere control for translucent porcelain results."
+icon        = "🔥"
+
+[[params.services]]
+name        = "Glaze & Surface"
+description = "Clear, celadon, and custom glaze formulation matched to your porcelain body for archival-quality finish."
+icon        = "✨"
+
+[[params.clusterLinks]]
+name        = "3dprintceramic.com"
+url         = "https://3dprintceramic.com"
+description = "Flagship — ceramic AM news & services"
+
+[[params.clusterLinks]]
+name        = "3dprintceramics.com"
+url         = "https://3dprintceramics.com"
+description = "Ceramics community & resources"
+
+[[params.clusterLinks]]
+name        = "3dprintstone.com"
+url         = "https://3dprintstone.com"
+description = "Stone & geopolymer AM"
+
+[[params.clusterLinks]]
+name        = "3dprinttile.com"
+url         = "https://3dprinttile.com"
+description = "Custom ceramic tile design"
+
+[[params.clusterLinks]]
+name        = "tile3dprint.com"
+url         = "https://tile3dprint.com"
+description = "Tile fabrication services"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
