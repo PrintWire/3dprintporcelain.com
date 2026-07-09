@@ -1,10 +1,18 @@
 baseURL = "https://3dprintporcelain.com/"
 languageCode = "en-us"
 title = "3D Print Porcelain"
-theme = "printwire"
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # All single-value params MUST come before [[params.*]] array tables
 [params]
+siteName      = "3D Print Porcelain"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">PORCELAIN</span>'
 tagline       = "Specialist resource for porcelain and bone china additive manufacturing."
 description   = "3D Print Porcelain — specialist coverage of translucent porcelain and bone china additive manufacturing for luxury tableware, dental labs, and fine ceramic research."
 keywords      = "porcelain 3D printing, bone china printing, translucent ceramic, dental porcelain, zirconia printing, luxury tableware, fine clay"
