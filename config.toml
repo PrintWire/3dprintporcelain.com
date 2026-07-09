@@ -18,7 +18,7 @@ description   = "3D Print Porcelain — specialist coverage of translucent porce
 keywords      = "porcelain 3D printing, bone china printing, translucent ceramic, dental porcelain, zirconia printing, luxury tableware, fine clay"
 logoEmoji     = "🤍"
 contactEmail  = "maxdavisgroup@gmail.com"
-ogImage       = "images/03_textured_collection.png"
+ogImage       = "/images/03_textured_collection.png"
 footerServicesLabel = "Services"
 
 colorPrimary      = "#c2714f"
